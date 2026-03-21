@@ -12,13 +12,13 @@
 
 <br/>
 
-> **50 production-grade prompts for founders, CEOs, and business leaders.**
-> Every prompt follows Anthropic best-practice prompt engineering.
-> Every output is structured, specific, and immediately usable.
+> **Engineered, not typed.**
+>
+> 50 production-grade prompts for founders, CEOs, and business leaders. Every prompt follows Anthropic best-practice prompt engineering. Every output is structured, specific, and immediately usable.
 
 <br/>
 
-[**→ Browse All Prompts**](#prompt-library) · [**→ How to Use**](#how-to-use) · [**→ Download Excel**](#download) · [**→ Contribute**](#contributing)
+[**→ Browse All Prompts**](#prompt-library) · [**→ Decision Tree**](prompts/DECISION_TREE.md) · [**→ How to Use**](#how-to-use) · [**→ Download Excel**](#download) · [**→ Contribute**](#contributing)
 
 </div>
 
@@ -177,17 +177,40 @@ This is not a list of one-liners. These are complete prompt systems built for th
 
 ---
 
+---
+
+## Decision Tree
+
+Not sure which prompt fits your situation? The Decision Tree maps every founder situation to the right prompt in 30 seconds.
+
+**[→ Open the Decision Tree](prompts/DECISION_TREE.md)**
+
+---
+
 ## How to Use
 
 Every prompt in this library follows the same structure. Copy. Fill. Run.
 
 ```
-1. Find the prompt for your situation (use the table above or the Decision Tree in the Excel file)
+1. Find your situation in the Decision Tree or browse the table above
 2. Copy the full prompt text from the .md file
 3. Replace all [BRACKETED_VARIABLES] with your specific context
 4. Paste into Claude, GPT-4o, Gemini, or any capable LLM
 5. Get a structured, specific, immediately usable output
 ```
+
+### The Golden Rule
+
+**Vague variables produce generic outputs. Specific variables produce outputs you can use immediately.**
+
+| Variable | Generic: produces generic output | Specific: produces usable output |
+|---|---|---|
+| `[TARGET_CUSTOMER]` | B2B SaaS companies | CFOs at UK-regulated financial services firms with 500-2000 employees |
+| `[COMPETITOR]` | Salesforce | Salesforce Sales Cloud, mid-market tier, £75k ACV |
+| `[DECISION_TO_MAKE]` | Whether to hire | Whether to hire a full-time Head of Sales at £95k or promote the current SDR and hire two junior reps |
+| `[PRODUCT_OR_SERVICE]` | Compliance software | FCA-regulated compliance monitoring SaaS that cuts quarterly reporting from 3 days to 4 hours |
+
+The difference between a prompt that produces something publishable and one that produces something generic is not the prompt. It is the variables you put into it.
 
 ### The Prompt Structure
 
