@@ -1,0 +1,299 @@
+<svg viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Mars sky gradient: deep black to dark red-brown atmosphere -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020008"/>
+      <stop offset="35%" stop-color="#0D0510"/>
+      <stop offset="65%" stop-color="#2A0E08"/>
+      <stop offset="85%" stop-color="#4A1C0C"/>
+      <stop offset="100%" stop-color="#5C2210"/>
+    </linearGradient>
+    <!-- Mars ground gradient -->
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7A3518"/>
+      <stop offset="40%" stop-color="#5C2810"/>
+      <stop offset="100%" stop-color="#3A1A08"/>
+    </linearGradient>
+    <!-- Distant crater rim gradient -->
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B2E14"/>
+      <stop offset="100%" stop-color="#3A1508"/>
+    </linearGradient>
+    <!-- Suit highlight gradient -->
+    <linearGradient id="suit-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8E0D0"/>
+      <stop offset="50%" stop-color="#C8BCA8"/>
+      <stop offset="100%" stop-color="#9A8E7C"/>
+    </linearGradient>
+    <!-- Visor gradient: reflective gold tint -->
+    <linearGradient id="visor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C8960A"/>
+      <stop offset="40%" stop-color="#A07808"/>
+      <stop offset="100%" stop-color="#4A3A05"/>
+    </linearGradient>
+    <!-- Flag gradient -->
+    <linearGradient id="flag-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D4A843"/>
+      <stop offset="100%" stop-color="#B88A28"/>
+    </linearGradient>
+    <!-- Pole glow -->
+    <linearGradient id="pole-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#888880"/>
+      <stop offset="30%" stop-color="#DDDDD5"/>
+      <stop offset="70%" stop-color="#AAAAAA"/>
+      <stop offset="100%" stop-color="#666660"/>
+    </linearGradient>
+    <!-- Ground dust shadow under astronaut -->
+    <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A0805" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1A0805" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Stars scatter: we'll draw them manually -->
+    <!-- Planet glow for Earth visible in sky -->
+    <radialGradient id="earth-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3A6AC8" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1E3E8A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0A1840" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Dust haze at horizon -->
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B2E14" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8B3A18" stop-opacity="0.45"/>
+    </linearGradient>
+    <!-- Left text panel: subtle dark overlay -->
+    <linearGradient id="text-panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#020008" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#020008" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- SKY -->
+  <rect width="1280" height="640" fill="url(#sky)"/>
+
+  <!-- STARS: hand-placed for cinematic scatter -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <circle cx="48" cy="22" r="0.8"/><circle cx="112" cy="45" r="0.6"/>
+    <circle cx="78" cy="88" r="1"/><circle cx="210" cy="18" r="0.7"/>
+    <circle cx="165" cy="55" r="0.5"/><circle cx="290" cy="32" r="0.9"/>
+    <circle cx="340" cy="70" r="0.6"/><circle cx="380" cy="25" r="0.8"/>
+    <circle cx="440" cy="50" r="0.5"/><circle cx="510" cy="15" r="1"/>
+    <circle cx="555" cy="60" r="0.6"/><circle cx="620" cy="30" r="0.7"/>
+    <circle cx="680" cy="80" r="0.5"/><circle cx="740" cy="18" r="0.9"/>
+    <circle cx="800" cy="45" r="0.6"/><circle cx="860" cy="28" r="0.8"/>
+    <circle cx="920" cy="65" r="0.5"/><circle cx="980" cy="20" r="0.7"/>
+    <circle cx="1040" cy="50" r="0.9"/><circle cx="1100" cy="35" r="0.6"/>
+    <circle cx="1160" cy="15" r="0.8"/><circle cx="1220" cy="55" r="0.5"/>
+    <circle cx="1260" cy="28" r="0.7"/><circle cx="1250" cy="80" r="0.6"/>
+    <circle cx="28" cy="140" r="0.5"/><circle cx="88" cy="165" r="0.7"/>
+    <circle cx="145" cy="120" r="0.6"/><circle cx="195" cy="155" r="0.8"/>
+    <circle cx="255" cy="105" r="0.5"/><circle cx="410" cy="130" r="0.6"/>
+    <circle cx="480" cy="100" r="0.8"/><circle cx="540" cy="145" r="0.5"/>
+    <circle cx="600" cy="115" r="0.7"/><circle cx="660" cy="140" r="0.9"/>
+    <circle cx="720" cy="95" r="0.5"/><circle cx="1050" cy="110" r="0.6"/>
+    <circle cx="1120" cy="90" r="0.8"/><circle cx="1185" cy="130" r="0.5"/>
+    <circle cx="1240" cy="105" r="0.7"/>
+  </g>
+  <!-- Brighter star clusters -->
+  <g fill="#FFFFF0" opacity="0.95">
+    <circle cx="95" cy="38" r="1.3"/><circle cx="312" cy="55" r="1.1"/>
+    <circle cx="475" cy="42" r="1.4"/><circle cx="698" cy="28" r="1.2"/>
+    <circle cx="845" cy="60" r="1.3"/><circle cx="1010" cy="38" r="1.1"/>
+    <circle cx="1148" cy="55" r="1.4"/>
+  </g>
+
+  <!-- EARTH visible as small blue dot in upper sky -->
+  <circle cx="1050" cy="78" r="18" fill="url(#earth-glow)" opacity="0.85"/>
+  <circle cx="1050" cy="78" r="12" fill="#2A4E9A" opacity="0.9"/>
+  <circle cx="1050" cy="78" r="12" fill="none" stroke="#6B9EE8" stroke-width="0.8" opacity="0.6"/>
+  <!-- Cloud swirl on Earth -->
+  <path d="M1043 72 Q1048 70 1054 73 Q1058 71 1062 74" fill="none" stroke="#CCDAF0" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
+  <path d="M1040 78 Q1046 76 1052 79" fill="none" stroke="#CCDAF0" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- DISTANT MOUNTAINS / CRATER RIM -->
+  <path d="M0 360 Q80 300 160 320 Q240 290 320 310 Q400 280 480 300 Q560 265 640 285 Q720 260 800 275 Q880 250 960 268 Q1040 248 1120 262 Q1200 245 1280 258 L1280 640 L0 640 Z" fill="url(#ridge)"/>
+  <!-- Second closer ridge -->
+  <path d="M0 390 Q60 365 140 375 Q220 358 300 370 Q380 352 460 365 Q540 348 620 362 Q700 345 780 358 Q860 342 940 355 Q1020 338 1100 352 Q1180 336 1280 348 L1280 640 L0 640 Z" fill="#4A1C0C" opacity="0.8"/>
+
+  <!-- MARS GROUND -->
+  <path d="M0 430 Q160 418 320 425 Q480 412 640 420 Q800 408 960 415 Q1120 405 1280 412 L1280 640 L0 640 Z" fill="url(#ground)"/>
+
+  <!-- Ground texture: rock shadows and dust lines -->
+  <path d="M120 465 Q180 460 220 468" fill="none" stroke="#3A1508" stroke-width="1.5" opacity="0.6"/>
+  <path d="M350 445 Q420 440 480 448" fill="none" stroke="#3A1508" stroke-width="1" opacity="0.5"/>
+  <path d="M650 455 Q720 450 780 458" fill="none" stroke="#3A1508" stroke-width="1.5" opacity="0.6"/>
+  <path d="M900 442 Q960 438 1020 445" fill="none" stroke="#3A1508" stroke-width="1" opacity="0.5"/>
+  <path d="M1100 460 Q1160 455 1210 463" fill="none" stroke="#3A1508" stroke-width="1.2" opacity="0.5"/>
+  <!-- Rock formations -->
+  <ellipse cx="200" cy="448" rx="28" ry="10" fill="#5C2810" opacity="0.7"/>
+  <ellipse cx="1080" cy="440" rx="35" ry="12" fill="#5C2810" opacity="0.6"/>
+  <ellipse cx="1200" cy="455" rx="20" ry="7" fill="#4A2008" opacity="0.7"/>
+  <path d="M175 438 L200 422 L228 438 Z" fill="#6A3015" opacity="0.6"/>
+  <path d="M1060 428 L1085 408 L1115 428 Z" fill="#6A3015" opacity="0.55"/>
+
+  <!-- Horizon dust haze -->
+  <rect x="0" y="360" width="1280" height="80" fill="url(#haze)"/>
+
+  <!-- ASTRONAUT SHADOW on ground -->
+  <ellipse cx="820" cy="450" rx="55" ry="14" fill="url(#shadow)"/>
+
+  <!-- ==================== ASTRONAUT ==================== -->
+  <!-- Positioned at x≈760-880, standing on ground ~y430 -->
+
+  <!-- LEGS + BOOTS -->
+  <!-- Left leg -->
+  <path d="M796 430 L788 490 L778 490 L784 425 Z" fill="#C8BCA8"/>
+  <path d="M784 425 L796 430 L792 435 L782 430 Z" fill="#B0A494"/>
+  <!-- Left boot -->
+  <path d="M774 488 Q776 500 792 502 Q804 502 806 492 L788 490 Z" fill="#8A7E6E"/>
+  <path d="M774 488 Q770 498 778 502 L792 502 Z" fill="#7A6E5E"/>
+
+  <!-- Right leg -->
+  <path d="M824 430 L838 492 L850 492 L840 425 Z" fill="#D0C4B0"/>
+  <path d="M840 425 L824 430 L826 436 L838 430 Z" fill="#B8AC9A"/>
+  <!-- Right boot -->
+  <path d="M834 490 Q835 502 852 504 Q864 503 866 492 L850 492 Z" fill="#8A7E6E"/>
+  <path d="M864 492 Q870 502 862 505 L850 504 Z" fill="#7A6E5E"/>
+
+  <!-- Knee joints / suit rings -->
+  <ellipse cx="785" cy="458" rx="9" ry="6" fill="#A09080" opacity="0.8"/>
+  <ellipse cx="843" cy="460" rx="9" ry="6" fill="#A09080" opacity="0.8"/>
+
+  <!-- TORSO / BACKPACK -->
+  <!-- Life support backpack -->
+  <path d="M788 318 L820 314 L828 318 L832 390 L784 395 Z" fill="#9A8E7A"/>
+  <rect x="786" y="325" width="44" height="30" rx="3" fill="#888075" opacity="0.8"/>
+  <!-- Backpack details -->
+  <rect x="792" y="330" width="12" height="18" rx="2" fill="#D4A843" opacity="0.6"/>
+  <rect x="808" y="330" width="12" height="18" rx="2" fill="#404040" opacity="0.7"/>
+  <rect x="820" y="330" width="6" height="8" rx="1" fill="#C0B8A8" opacity="0.6"/>
+
+  <!-- Main torso suit -->
+  <path d="M784 320 Q776 325 772 340 Q768 360 770 390 L778 395 Q784 398 820 398 Q840 398 848 392 L852 385 Q854 360 850 340 Q848 325 838 320 Z" fill="url(#suit-body)"/>
+  <!-- Torso center stripe -->
+  <path d="M808 320 L808 398" stroke="#B0A898" stroke-width="1.5" opacity="0.5"/>
+  <!-- Chest pack / control unit -->
+  <rect x="792" y="345" width="36" height="26" rx="4" fill="#8A8478"/>
+  <rect x="794" y="347" width="12" height="8" rx="1" fill="#2A2A40"/>
+  <rect x="808" y="347" width="18" height="8" rx="1" fill="#1A3A1A"/>
+  <rect x="794" y="358" width="32" height="10" rx="2" fill="#A09888"/>
+  <!-- Small indicator lights -->
+  <circle cx="798" cy="363" r="2" fill="#D4A843" opacity="0.9"/>
+  <circle cx="804" cy="363" r="2" fill="#4CAF50" opacity="0.9"/>
+  <circle cx="810" cy="363" r="2" fill="#E24B4A" opacity="0.9"/>
+
+  <!-- Suit shoulder rings -->
+  <ellipse cx="778" cy="325" rx="12" ry="7" fill="#A09080"/>
+  <ellipse cx="842" cy="325" rx="12" ry="7" fill="#A09080"/>
+
+  <!-- LEFT ARM (reaching up to hold flag pole) -->
+  <!-- Upper arm -->
+  <path d="M772 326 Q755 330 748 345 Q742 360 748 375 L758 372 Q758 360 762 348 Q768 336 780 332 Z" fill="#C8BCA8"/>
+  <!-- Elbow joint -->
+  <ellipse cx="752" cy="372" rx="8" ry="7" fill="#A09080"/>
+  <!-- Lower arm extending up and right toward pole -->
+  <path d="M748 372 Q738 355 740 335 Q742 318 758 308 L764 314 Q750 322 750 338 Q748 355 756 370 Z" fill="#D0C4B0"/>
+  <!-- Glove left -->
+  <path d="M756 308 Q748 302 745 295 Q748 288 758 290 Q766 292 764 304 Z" fill="#9A8E7A"/>
+
+  <!-- RIGHT ARM (down at side, slightly forward) -->
+  <path d="M842 326 Q858 330 866 345 Q872 360 866 378 L856 374 Q858 362 854 348 Q848 336 840 332 Z" fill="#C8BCA8"/>
+  <ellipse cx="868" cy="376" rx="8" ry="7" fill="#A09080"/>
+  <path d="M866 376 Q876 388 874 405 Q872 420 862 425 L856 418 Q864 414 865 400 Q866 388 858 378 Z" fill="#D0C4B0"/>
+  <!-- Glove right -->
+  <path d="M860 424 Q854 432 850 438 Q844 434 846 426 Q850 418 858 418 Z" fill="#9A8E7A"/>
+
+  <!-- HELMET -->
+  <!-- Helmet shell -->
+  <circle cx="811" cy="298" r="38" fill="#D0C8B8"/>
+  <!-- Helmet rear / neck ring -->
+  <ellipse cx="811" cy="322" rx="30" ry="8" fill="#B8B0A0"/>
+  <ellipse cx="811" cy="320" rx="28" ry="6" fill="#A09888"/>
+
+  <!-- Visor (golden reflective) -->
+  <path d="M782 295 Q784 275 811 272 Q838 275 840 295 Q838 315 811 318 Q784 315 782 295 Z" fill="url(#visor)"/>
+  <!-- Visor reflection highlight -->
+  <path d="M788 283 Q798 278 812 279 Q820 280 826 285" fill="none" stroke="#F5D870" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M786 290 Q793 285 802 284" fill="none" stroke="#EECF60" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- Faint reflection of Mars surface in visor -->
+  <path d="M790 305 Q811 308 832 305" fill="none" stroke="#8B3A18" stroke-width="1" opacity="0.3"/>
+
+  <!-- Helmet top light / camera -->
+  <circle cx="811" cy="265" r="5" fill="#C8C0B0"/>
+  <circle cx="811" cy="265" r="3" fill="#404048"/>
+  <circle cx="811" cy="265" r="1.5" fill="#202028"/>
+
+  <!-- Helmet side details -->
+  <circle cx="780" cy="298" r="4" fill="#A09080"/>
+  <circle cx="842" cy="298" r="4" fill="#A09080"/>
+
+  <!-- Antenna on helmet -->
+  <line x1="820" y1="262" x2="832" y2="248" stroke="#C0B8A8" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="832" cy="247" r="2.5" fill="#D4A843"/>
+
+  <!-- ==================== FLAG POLE ==================== -->
+  <!-- Pole: slim metallic rod -->
+  <rect x="736" y="278" width="4" height="180" rx="2" fill="url(#pole-shine)"/>
+  <!-- Horizontal crossbar at top -->
+  <rect x="736" y="278" width="90" height="3" rx="1.5" fill="url(#pole-shine)"/>
+
+  <!-- FLAG: gold with text -->
+  <!-- Flag body with slight wave simulation via path -->
+  <path d="M740 281 Q765 279 790 282 Q815 279 826 281 L826 328 Q815 330 790 328 Q765 331 740 328 Z" fill="url(#flag-grad)"/>
+  <!-- Flag wave crease shadow -->
+  <path d="M763 281 Q763 304 762 328" fill="none" stroke="#8A6A18" stroke-width="0.8" opacity="0.5"/>
+  <path d="M790 282 Q789 304 790 328" fill="none" stroke="#9A7A20" stroke-width="0.6" opacity="0.4"/>
+  <!-- Flag text -->
+  <text x="783" y="299" font-family="Georgia, serif" font-size="8" font-weight="bold" fill="#1B2A4A" text-anchor="middle" letter-spacing="0.5">KUNAL RK</text>
+  <text x="783" y="311" font-family="Georgia, serif" font-size="6" fill="#2A3A5A" text-anchor="middle" letter-spacing="0.3">AI PROMPT LIBRARY</text>
+  <text x="783" y="322" font-family="Georgia, serif" font-size="5.5" fill="#3A4A6A" text-anchor="middle" letter-spacing="0.5">EST. 2025</text>
+
+  <!-- ==================== LEFT TEXT PANEL ==================== -->
+  <!-- Dark overlay for readability -->
+  <rect x="0" y="0" width="680" height="640" fill="url(#text-panel)"/>
+
+  <!-- Brand line -->
+  <text x="52" y="85" font-family="'Courier New', monospace" font-size="11" fill="#D4A843" letter-spacing="4" opacity="0.8">KUNAL RK  ·  AI PROMPT LIBRARY</text>
+  <line x1="52" y1="95" x2="360" y2="95" stroke="#D4A843" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Main headline -->
+  <text x="52" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="-2">The Ultimate</text>
+  <text x="52" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" fill="#D4A843" letter-spacing="-2">The Ultimate Prompt Library</text>
+
+  <!-- Tagline line -->
+  <text x="52" y="308" font-family="Georgia, serif" font-size="20" fill="#FFFFFF" opacity="0.65" letter-spacing="0.3">for Entrepreneurs, Business and Startup Leaders</text>
+
+  <!-- Gold rule -->
+  <rect x="52" y="328" width="72" height="2.5" fill="#D4A843"/>
+
+  <!-- Stats -->
+  <text x="52" y="374" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#D4A843">50</text>
+  <text x="52" y="398" font-family="'Courier New', monospace" font-size="10" fill="#FFFFFF" opacity="0.55" letter-spacing="2">PRODUCTION-GRADE PROMPTS</text>
+
+  <text x="185" y="374" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#D4A843">13</text>
+  <text x="185" y="398" font-family="'Courier New', monospace" font-size="10" fill="#FFFFFF" opacity="0.55" letter-spacing="2">DOMAINS</text>
+
+  <text x="300" y="374" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#D4A843">3</text>
+  <text x="300" y="398" font-family="'Courier New', monospace" font-size="10" fill="#FFFFFF" opacity="0.55" letter-spacing="2">SKILL LEVELS</text>
+
+  <!-- Dividers between stats -->
+  <line x1="173" y1="348" x2="173" y2="400" stroke="#D4A843" stroke-width="0.5" opacity="0.3"/>
+  <line x1="288" y1="348" x2="288" y2="400" stroke="#D4A843" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Works with line -->
+  <text x="52" y="440" font-family="'Courier New', monospace" font-size="10" fill="#D4A843" letter-spacing="2" opacity="0.7">WORKS WITH</text>
+  <text x="52" y="458" font-family="'Courier New', monospace" font-size="12" fill="#FFFFFF" opacity="0.75">Claude · GPT-4o · Gemini · Any LLM</text>
+
+  <!-- Bottom tagline -->
+  <text x="52" y="560" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="bold" fill="#D4A843" letter-spacing="2">WE CAN JUST BUILD THINGS.</text>
+  <text x="52" y="590" font-family="'Courier New', monospace" font-size="10" fill="#FFFFFF" opacity="0.35" letter-spacing="1">Built on Anthropic prompt engineering principles</text>
+
+  <!-- Corner bracket decorations -->
+  <path d="M 20 18 L 20 48 L 42 48" fill="none" stroke="#D4A843" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 1260 18 L 1260 48 L 1238 48" fill="none" stroke="#D4A843" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 20 622 L 20 592 L 42 592" fill="none" stroke="#D4A843" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 1260 622 L 1260 592 L 1238 592" fill="none" stroke="#D4A843" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Top/bottom gold rules (full width, very subtle) -->
+  <rect x="0" y="0" width="1280" height="3" fill="#D4A843" opacity="0.6"/>
+  <rect x="0" y="637" width="1280" height="3" fill="#D4A843" opacity="0.6"/>
+</svg>
