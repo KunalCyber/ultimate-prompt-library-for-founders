@@ -8,7 +8,7 @@
 [![Prompts](https://img.shields.io/badge/Prompts-50-1B2A4A.svg?style=for-the-badge)](prompts/)
 [![Domains](https://img.shields.io/badge/Domains-13-C53030.svg?style=for-the-badge)](prompts/)
 [![Works With](https://img.shields.io/badge/Works%20With-Claude%20%7C%20GPT--4o%20%7C%20Gemini-553C9A.svg?style=for-the-badge)](#-works-with-any-llm)
-[![Stars](https://img.shields.io/github/stars/KunalGRC/ultimate-prompt-library-for-founders?style=for-the-badge&color=D4A843)](https://github.com/KunalGRC/ultimate-prompt-library-for-founders)
+[![GitHub Stars](https://img.shields.io/github/stars/KunalCyber/ultimate-prompt-library-for-founders?style=for-the-badge&color=D4A843&label=Stars)](https://github.com/KunalCyber/ultimate-prompt-library-for-founders)
 
 <br/>
 
@@ -346,7 +346,7 @@ If this library saves you time or helps you think more clearly about your busine
 
 <br/>
 
-[![⭐ Star this Repo](https://img.shields.io/badge/⭐%20Star%20This%20Repo-1B2A4A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KunalGRC/ultimate-prompt-library-for-founders)
+[![GitHub Stars](https://img.shields.io/github/stars/KunalCyber/ultimate-prompt-library-for-founders?style=for-the-badge&color=1B2A4A&label=⭐%20Stars)](https://github.com/KunalCyber/ultimate-prompt-library-for-founders)
 [![📥 Download Excel](https://img.shields.io/badge/📥_Download_Excel-D4A843?style=for-the-badge)](assets/The_Ultimate_Prompt_Library.xlsx)
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kunal-rk-a255aa301)
 
