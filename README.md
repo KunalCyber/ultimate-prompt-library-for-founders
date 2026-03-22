@@ -1,7 +1,6 @@
 <div align="center">
 
-# The Ultimate Prompt Library for Founders
-### We can just build things.
+<h1 align="center" style="font-family: Georgia, 'Times New Roman', serif; font-size: 2.8em; font-weight: 700; letter-spacing: -0.5px;">The Ultimate Prompt Library for Founders</h1>
 
 ![Banner](assets/banner-animated.svg)
 
