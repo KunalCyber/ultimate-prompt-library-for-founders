@@ -18,19 +18,27 @@
 
 <br/>
 
-[**→ Browse All Prompts**](#prompt-library) · [**→ Decision Tree**](prompts/DECISION_TREE.md) · [**→ How to Use**](#how-to-use) · [**→ Download Excel**](#download) · [**→ Contribute**](#contributing)
+[**Browse All Prompts**](#prompt-library) · [**Decision Tree**](prompts/DECISION_TREE.md) · [**How to Use**](#how-to-use) · [**Download Excel**](#download) · [**Contribute**](#contributing)
 
 </div>
 
 ---
 
-## What This Is
+## What Makes This Library Elite
 
-Most AI prompts produce vague, generic output that requires hours of cleanup before it is usable. This library is different.
+Most prompt libraries are one-liners dressed up as resources. Type a sentence, get a sentence back. This is not that.
 
-Every prompt in this collection is engineered to a production standard. Each one uses the full Anthropic prompt engineering stack: explicit role assignment, XML tag structure, placeholder variables, exact output format definitions, chain-of-thought reasoning for complex analysis, and a self-check evaluation block. The result is structured, specific, immediately usable output, every time.
+Every prompt in this collection is a complete system: explicit expert role assignment, XML tag structure, bracketed placeholder variables, exact output format specifications, numbered instruction steps, chain-of-thought reasoning for complex decisions, and a self-check evaluation block the model runs before delivering output. That is the full Anthropic prompt engineering stack, applied to every single prompt.
 
-This is not a list of one-liners. These are complete prompt systems built for the highest-stakes decisions a founder faces.
+The result is not AI-flavoured output that needs two hours of cleanup. It is a structured, specific, immediately usable deliverable. The kind a Big 4 consultant would charge five figures to produce.
+
+**The difference is in the variables.** Vague inputs produce vague outputs. Every prompt in this library tells you exactly what to enter, why it matters, and what a specific example looks like. Fill the brackets properly and the output is ready to use without editing.
+
+**The difference is in the constraints.** Each prompt tells the model what it must never do: no invented statistics, no generic advice, no softened verdicts, no placeholder content. Constraints are what separate a prompt that produces something publishable from one that produces something plausible.
+
+**The difference is in the evaluation block.** Before delivering output, the model checks its own work against five specific criteria. The prompt does not trust the model. It verifies.
+
+This is not a list of ideas. It is a production-grade operating system for the highest-stakes decisions a founder makes.
 
 ---
 
@@ -183,7 +191,7 @@ This is not a list of one-liners. These are complete prompt systems built for th
 
 Not sure which prompt fits your situation? The Decision Tree maps every founder situation to the right prompt in 30 seconds.
 
-**[→ Open the Decision Tree](prompts/DECISION_TREE.md)**
+**[Open the Decision Tree](prompts/DECISION_TREE.md)**
 
 ---
 
@@ -278,7 +286,7 @@ The complete library is available as a premium Excel file with:
 - Domain colour coding across all 13 domains
 - Internal navigation: every prompt links back to Contents and Decision Tree
 
-**[→ Download the Excel File](assets/The_Ultimate_Prompt_Library.xlsx)** · Free · All 50 prompts · One file · No sign-up required
+**[Download the Excel File](assets/The_Ultimate_Prompt_Library.xlsx)** · Free · All 50 prompts · One file · No sign-up required
 
 The Excel file includes the full prompt library with a Cover page, Contents index, Decision Tree, and individual sheets for all 50 prompts , each with variables table, the prompt, why-it-works, and sample output. Navigate between prompts with one click.
 
