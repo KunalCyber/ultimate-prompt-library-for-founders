@@ -93,4 +93,4 @@ Section 5 Scorecard row example: Problem Severity | 4 | Finance directors lose a
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*

@@ -83,4 +83,4 @@ Top Advantage 2: Published author on AI governance, Credibility Advantage, Compo
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*

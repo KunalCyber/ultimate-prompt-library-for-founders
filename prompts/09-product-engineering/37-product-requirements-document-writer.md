@@ -95,4 +95,4 @@ User Story 2: As a compliance manager, I want the system to automatically retrie
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*

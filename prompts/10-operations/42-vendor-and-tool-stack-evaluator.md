@@ -90,4 +90,4 @@ Recommendation: Attio. It passes all must-have requirements, scores highest on i
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*

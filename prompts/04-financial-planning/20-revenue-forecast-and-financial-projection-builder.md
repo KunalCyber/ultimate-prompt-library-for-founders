@@ -94,4 +94,4 @@ Monthly ARR Build row: Month 6 | New Customers: 3 | New ARR: £54,000 | Churned 
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*

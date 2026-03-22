@@ -88,4 +88,4 @@ Assumption Risk Matrix row: Customers will pay £18,000/year | 3 | 5 | 15 | Rank
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*

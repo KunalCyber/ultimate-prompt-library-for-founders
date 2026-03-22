@@ -90,4 +90,4 @@ Unit Economics row: ACV: £18,000 | Gross Margin: 78% | Estimated CAC: £8,500 |
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*

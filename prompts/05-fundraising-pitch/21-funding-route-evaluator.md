@@ -87,4 +87,4 @@ Scoring row: Seed VC Funds | Speed: 2 (3-6 month process) | Dilution Efficiency:
 
 ---
 
-*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://linkedin.com/in/kunalrk)*
+*Part of the [The Ultimate Prompt Library](../../README.md) · Built by [Kunal RK](https://www.linkedin.com/in/kunal-rk-a255aa301)*
